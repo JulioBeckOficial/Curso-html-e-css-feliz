@@ -1,0 +1,79 @@
+@charset 'UTF-8';
+
+/*DICAS
+
+    1px real é equivalente a aproximadamente 3px no css
+
+*/
+
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c5e99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+    
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+a::before {
+    content: "";
+    background-color: #f25a70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    
+}
+
+/*
+    span {
+        
+        background-color: #f25a70;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+*/
+#button {
+    display: inline-block;
+    background-color: #f25a70;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    margin-right: 0px;
+    transition: transform 100ms linear, opacity 50ms ease-in-out;
+
+    /*Se voce inserir um terceiro valor no padding ele sera inserido no bottom do elemento e somento o bottom 
+
+    padding: 10px(top and bottom) 10px(left and right) 14px(bottom);
+    */
+
+    box-shadow: 5px 5px 0px #00000073;
+}
+
+#button:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.3;
+    background-color: aquamarine;
+    color: #000;
+    
+    transform: scale(1.1);
+    
+}
