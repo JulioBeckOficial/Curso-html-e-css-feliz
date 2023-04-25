@@ -1,3 +1,0 @@
-hospedar o site só com o cabeçalho no github pages
-
-pesquise no google como hospedar site no github pages
