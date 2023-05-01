@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+
+.banner {
+    box-sizing: border-box;
+    height: 900px;
+    background-image: url(../../assets/img/photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+
+    
+}
+
+
+
+
+.banner .wrapper {
+
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    
+
+}
+
+.banner .box {
+    margin-bottom: 40px
+}
+
+.banner .navigation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+}
