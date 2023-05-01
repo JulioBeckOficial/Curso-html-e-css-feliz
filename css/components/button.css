@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+.button {
+    display: inline-block;
+    background-color: #f25a70;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    margin-right: 0px;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2);
+    font-family: inherit;
+
+    /*Se voce inserir um terceiro valor no padding ele sera inserido no bottom do elemento e somento o bottom 
+
+    padding: 10px(top and bottom) 10px(left and right) 14px(bottom);
+    */
+
+    box-shadow: 5px 5px 0px #000;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
